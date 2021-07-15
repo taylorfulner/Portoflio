@@ -6,36 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="/Code/main.css">
+
+    <link rel="stylesheet" href="/Code/main.css">
   <title>Taylor Fulner | Software Developer</title>
 </head>
 
 <body>
   <header>
     <!--navigation-->
-    <div class="collapse bg-dark" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">About</h4>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="navbar fixed-top navbar-dark bg-dark box-shadow">
+    <div class="navbar navbar-dark bg-dark box-shadow">
       <div class="container d-flex justify-content-between">
         <a href="#" class="navbar-brand d-flex align-items-center">
           <strong>Taylor Fulner | Software Developer</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
-          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <ul>
+        <div>
+          <a href="#about-me"><h5 class="text-white">About Taylor</h5></a>
+        </div>
+        <div>
+          <a href="#contact"><h5 class="text-white">Contact</h5></a>
+        </div>
+      </ul>
       </div>
     </div>
+  </div>
   </header>
 
   <main role="main">
@@ -48,9 +51,9 @@
       </div>
     </section>
 
-    <div class="container py-5">
+    <div class="container py-5" id="resume-view">
       <div>
-        <a href="#" class="btn btn-primary my-2">Download my Resume</a>
+        <a href="#" class="btn btn-primary my-2">View Resume</a>
       </div>
     </div>
 
@@ -119,14 +122,14 @@
       </div>
     </div>
 
-    <div class="container py-5">
+    <div class="container py-5" id="about-me">
       <div>
         <h4>About Me</h4>
         <a href="#" class="btn btn-secondary my-2">Secondary action</a>
       </div>
     </div>
 
-    <div class="container py-5 bg-light">
+    <div class="container py-5 bg-light" id="contact">
       <!--contact form-->
       <h4>Contact</h4>
       <form action="https://formspree.io/f/xrgrakdk" method="POST">
@@ -148,9 +151,7 @@
       <p class="float-right">
         <a href="#">Back to top</a>
       </p>
-      <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-      <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting
-          started guide</a>.</p>
+      <p>&copy; <a href="www.taylorf.com">www.TaylorF.com</a></p>
     </div>
   </footer>
 
@@ -163,10 +164,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+
   <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+
 </body>
 
 </html>
