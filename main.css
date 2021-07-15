@@ -2,3 +2,60 @@
     text-align: center;
     padding-top: -100px;
 }
+
+#navbarHeader {
+    text-align: right;
+}
+
+#recent {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+img:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+  }
+
+.jumbotron:hover {
+    background-color: #9ed9aec2;
+}
+
+#resume-view:hover {
+    background-color: #9ed9aec2;
+}
+
+#recent-work {
+    background-color: #f8f9fa;
+}
+
+#recent-work:hover {
+    background-color: #9ed9aec2;
+}
+
+#about-color-hover:hover {
+    background-color: #9ed9aec2;
+}
+
+#about-me {
+      align-items: center;
+      width: 40%;
+  }
+
+#about-me-header {
+    text-align: center;
+}
+
+.about-me-info {
+    text-align: justify;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
